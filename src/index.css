@@ -7,6 +7,13 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --color-primary: #800080;
+  --color-secondary: #f960a3;
+  --color-body: #fafafa;
+  --color-white: #ffffff;
+  --color-white-accent: #d9d9d9;
+  --color-dark: #1e1e1e;
+
   /* color-scheme: light dark; */
   /* color: rgba(255, 255, 255, 0.87); */
   /* background-color: #242424; */
@@ -15,4 +22,30 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--color-body);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 8.5rem;
+}
+
+h2 {
+  font-size: 6.4rem;
+}
+
+h3 {
+  font-size: 4.8rem;
+}
+
+p {
+  font-size: 2rem;
 }
