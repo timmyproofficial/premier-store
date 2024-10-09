@@ -10,6 +10,10 @@ export default {
         'white-color': 'var(--white-color)',
         'white-accent': 'var(--white-accent)',
         'dark-color': 'var(--dark-color)',
+        'gray-color': 'var(--gray-color)',
+      },
+      boxShadow: {
+        'product-shadow': 'var(--product-shadow)',
       },
     },
   },
