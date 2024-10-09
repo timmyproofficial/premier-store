@@ -15,6 +15,7 @@
   --dark-color: #1e1e1e;
   --gray-color: #666666;
   --product-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  --about-shadow: 30px 30px 0px 3px var(--secondary-color);
 
   /* color-scheme: light dark; */
   /* color: rgba(255, 255, 255, 0.87); */

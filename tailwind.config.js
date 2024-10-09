@@ -14,6 +14,7 @@ export default {
       },
       boxShadow: {
         'product-shadow': 'var(--product-shadow)',
+        'about-shadow': 'var(--about-shadow)',
       },
     },
   },
