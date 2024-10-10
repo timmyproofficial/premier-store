@@ -1,6 +1,6 @@
 import inputSearch from '../assets/search.svg';
 
-const InputGroup = () => {
+const SearchBar = () => {
   return (
     <div className="flex rounded-xl overflow-hidden">
       <input
@@ -18,4 +18,4 @@ const InputGroup = () => {
   );
 };
 
-export default InputGroup;
+export default SearchBar;
