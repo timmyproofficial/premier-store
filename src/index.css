@@ -72,3 +72,7 @@ h4 {
 p {
   font-size: 2rem;
 }
+
+.top-text {
+  letter-spacing: 2px;
+}

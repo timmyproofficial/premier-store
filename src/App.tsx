@@ -1,10 +1,10 @@
-import HeadingBorderSm from './components/HeadingBorderSm';
+import HeadingPlain from './components/HeadingPlain';
 
 function App() {
   return (
-    <>
-      <HeadingBorderSm mainText="Grab it Now" bold={true} link="/" />
-    </>
+    <div>
+      <HeadingPlain mainText="Follow us on Instagram" topText="Newsfeed" />
+    </div>
   );
 }
 
