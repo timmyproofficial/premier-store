@@ -11,6 +11,7 @@ export default {
         'white-accent': 'var(--white-accent)',
         'dark-color': 'var(--dark-color)',
         'gray-color': 'var(--gray-color)',
+        'gray-accent': 'var(--gray-accent)',
       },
       boxShadow: {
         'product-shadow': 'var(--product-shadow)',
