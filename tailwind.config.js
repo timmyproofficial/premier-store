@@ -12,6 +12,7 @@ export default {
         'dark-color': 'var(--dark-color)',
         'gray-color': 'var(--gray-color)',
         'gray-accent': 'var(--gray-accent)',
+        'link-color': 'var(--link-color)',
       },
       boxShadow: {
         'product-shadow': 'var(--product-shadow)',
