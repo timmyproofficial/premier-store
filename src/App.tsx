@@ -1,9 +1,9 @@
-import HeadingPlain from './components/HeadingPlain';
+import HeadingNewsfeed from './components/HeadingNewsfeed';
 
 function App() {
   return (
     <div>
-      <HeadingPlain mainText="Follow us on Instagram" topText="Newsfeed" />
+      <HeadingNewsfeed />
     </div>
   );
 }
