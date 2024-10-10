@@ -13,16 +13,16 @@ const HeadingBorderSm = ({
     <>
       <Link to={link!} className="inline-flex flex-col items-start">
         <p
-          className={`font-[${bold ? 500 : 400}] text-[${
-            bold ? '2.5rem' : '2.25rem'
-          }] text-link-color`}
+          className={`${
+            bold ? `font-[500] text-[4rem]` : `font-[400] text-[3.6rem]`
+          } text-link-color`}
         >
           {mainText}
         </p>
         <div
-          className={`bg-secondary-color w-[82%] mt-[${
-            bold ? '-8px' : '-5px'
-          }] border border-link-color self-end`}
+          className={`${
+            bold ? `mt-[-8px]` : `mt-[-5px]`
+          } bg-secondary-color w-[82%] border border-link-color self-end`}
         ></div>
       </Link>
     </>
