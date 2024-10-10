@@ -9,7 +9,7 @@
 
   --primary-color: #800080;
   --secondary-color: #f960a3;
-  --body-color: #fafafa;
+  --body-color: #e3e3e3;
   --white-color: #ffffff;
   --white-accent: #d9d9d9;
   --dark-color: #1e1e1e;
@@ -75,4 +75,8 @@ p {
 
 .top-text {
   letter-spacing: 2px;
+}
+
+.nav-icon {
+  width: 23px;
 }

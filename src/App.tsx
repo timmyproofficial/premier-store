@@ -1,9 +1,9 @@
-import HeadingNewsfeed from './components/HeadingNewsfeed';
+import NavbarTop from './components/NavbarTop';
 
 function App() {
   return (
     <div>
-      <HeadingNewsfeed />
+      <NavbarTop />
     </div>
   );
 }
