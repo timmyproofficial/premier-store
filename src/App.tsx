@@ -1,5 +1,11 @@
+import HeadingPlain from './components/HeadingPlain';
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <HeadingPlain mainText="Featured Products" />
+    </>
+  );
 }
 
 export default App;
