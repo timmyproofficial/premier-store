@@ -1,9 +1,9 @@
-import HeadingPlain from './components/HeadingPlain';
+import HeadingBorderLg from './components/HeadingBorderLg';
 
 function App() {
   return (
     <>
-      <HeadingPlain mainText="Featured Products" />
+      <HeadingBorderLg mainText="About Our Store" />
     </>
   );
 }
