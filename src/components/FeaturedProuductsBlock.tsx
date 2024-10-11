@@ -1,4 +1,3 @@
-import React from 'react';
 import BlockWhite from './BlockWhite';
 import HeadingPlain from './HeadingPlain';
 import FeaturedProducts from './FeaturedProducts';

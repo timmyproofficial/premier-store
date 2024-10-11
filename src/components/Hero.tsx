@@ -4,8 +4,6 @@ import heroImg from '../assets/hero-premier.png';
 import facebook from '../assets/facebook.svg';
 import whatsapp from '../assets/whatsapp.svg';
 import instagram from '../assets/instagram.svg';
-import NavbarTop from './NavbarTop';
-import FeaturedProuductsBlock from './FeaturedProuductsBlock';
 
 const Hero = () => {
   return (

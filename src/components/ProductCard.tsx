@@ -1,4 +1,3 @@
-import arrival1 from '../assets/arrival1.png';
 import starIcon from '../assets/star-filled.svg';
 import cartIcon from '../assets/cart-white.svg';
 

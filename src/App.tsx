@@ -1,10 +1,9 @@
-import FeatureProuductsBlock from './components/FeaturedProuductsBlock';
-import Hero from './components/Hero';
+import { HomePage } from './pages';
 
 function App() {
   return (
     <div>
-      <Hero />
+      <HomePage />
       {/* <FeatureProuductsBlock /> */}
     </div>
   );
