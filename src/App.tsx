@@ -1,11 +1,11 @@
-import AboutDetails from './components/AboutDetails';
+import AboutBlock from './components/AboutBlock';
 import { HomePage } from './pages';
 
 function App() {
   return (
     <div>
-      {/* <HomePage /> */}
-      <AboutDetails />
+      <HomePage />
+      {/* <AboutBlock /> */}
     </div>
   );
 }

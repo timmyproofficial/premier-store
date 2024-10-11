@@ -8,8 +8,10 @@ const AboutDetails = () => {
 
       <p className="mb-3">
         Lorem ipsum, this is a dummy test. The primary objective of this project
-        is to create a user-friendly website where clients can seamlessly book
-        appointments and make secure payments.{' '}
+        is to create a user-friendly Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Nulla, molestiae reiciendis eligendi officiis quidem
+        laborum eaque placeat rerum omnis website where clients can seamlessly
+        book appointments and make secure payments.{' '}
       </p>
       <HeadingBorderLink mainText="Read More" link={'/'} classes="self-start" />
     </div>

@@ -10,7 +10,7 @@ interface Props {
 
 const ProductCard = ({ title, img, price, discount }: Props) => {
   return (
-    <div className="bg-dark-color max-w-[400px] rounded-[30px] relative overflow-hidden shadow-product-shadow flex flex-col">
+    <div className="bg-dark-color rounded-[30px] relative overflow-hidden shadow-product-shadow flex flex-col">
       <div className="relative">
         <img src={img} alt={title} />
         <span className="bg-white-color font-extrabold flex justify-center items-center rounded-full absolute top-3/4 right-20 w-16 h-16">

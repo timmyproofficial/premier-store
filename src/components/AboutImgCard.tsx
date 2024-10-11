@@ -1,11 +1,11 @@
 import aboutImg from '../assets/about-img.png';
 
-const AboutCard = () => {
+const AboutImgCard = () => {
   return (
-    <div className="shadow-about-shadow max-w-[754px]">
+    <div className="shadow-about-shadow hidden md:block">
       <img className="w-full" src={aboutImg} alt="About store image" />
     </div>
   );
 };
 
-export default AboutCard;
+export default AboutImgCard;
