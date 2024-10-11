@@ -7,6 +7,7 @@ export default {
         'primary-color': 'var(--primary-color)',
         'secondary-color': 'var(--secondary-color)',
         'body-color': 'var(--body-color)',
+        'block-color': 'var(--block-color)',
         'white-color': 'var(--white-color)',
         'white-accent': 'var(--white-accent)',
         'dark-color': 'var(--dark-color)',

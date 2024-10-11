@@ -16,7 +16,7 @@ export const productsFeature = [
     title: 'Ice wriste',
     img: arrival2,
     price: 30,
-    disount: 15,
+    discount: 15,
   },
   {
     id: 3,

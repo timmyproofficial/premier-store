@@ -1,11 +1,11 @@
+import FeatureProuductsBlock from './components/FeaturedProuductsBlock';
 import Hero from './components/Hero';
-import ProductCard from './components/ProductCard';
 
 function App() {
   return (
     <div>
-      {/* <Hero /> */}
-      {/* <ProductCard title="Golden Ring" img={} /> */}
+      <Hero />
+      {/* <FeatureProuductsBlock /> */}
     </div>
   );
 }

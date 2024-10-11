@@ -11,7 +11,7 @@ interface Props {
 
 const ProductCard = ({ title, img, price, discount }: Props) => {
   return (
-    <div className="bg-dark-color max-w-[400px] rounded-[30px] relative overflow-hidden shadow-product-shadow flex flex-col m-10">
+    <div className="bg-dark-color max-w-[400px] rounded-[30px] relative overflow-hidden shadow-product-shadow flex flex-col">
       <div className="relative">
         <img src={img} alt={title} />
         <span className="bg-white-color font-extrabold flex justify-center items-center rounded-full absolute top-3/4 right-20 w-16 h-16">
@@ -21,7 +21,7 @@ const ProductCard = ({ title, img, price, discount }: Props) => {
       <div className="flex justify-between items-center relative pr-16 pl-10  top-[-40px]">
         <div className="text-white-color flex flex-col gap-10">
           <div>
-            <p>Product Title</p>
+            <p>{title}</p>
             <span className="flex gap-3">
               <img className="w-5" src={starIcon} alt="Star Icon" />
               <img className="w-5" src={starIcon} alt="Star Icon" />

@@ -5,12 +5,12 @@ import facebook from '../assets/facebook.svg';
 import whatsapp from '../assets/whatsapp.svg';
 import instagram from '../assets/instagram.svg';
 import NavbarTop from './NavbarTop';
+import FeaturedProuductsBlock from './FeaturedProuductsBlock';
 
 const Hero = () => {
   return (
     <>
-      <NavbarTop />
-      <div className="relative hero container">
+      <div className="relative pb-12 lg:h-[95vh] hero container">
         <nav className="flex justify-end px-10 py-7 mr-10">
           <ul className="text-[1.8rem] text-link-color font-[700] flex gap-8">
             <li>
@@ -38,12 +38,12 @@ const Hero = () => {
               <Button text="Shop Now" />
             </Link>
           </div>
-          <div className="-z-20 hidden md:block">
+          <div className="-z-10 hidden md:block">
             <img className="w-full" src={heroImg} alt="Hero Photo" />
           </div>
         </div>
 
-        <div className="hidden md:flex gap-16 absolute top-[88vh] left-10">
+        <div className="hidden lg:flex gap-16 absolute top-[88vh] left-10">
           <img className="w-[15px]" src={facebook} alt="Facebook Icon" />
           <img className="w-[20px]" src={whatsapp} alt="WhatsApp Icon" />
           <img className="w-[20px]" src={instagram} alt="Instagram Icon" />
