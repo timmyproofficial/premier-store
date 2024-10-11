@@ -54,7 +54,10 @@ h3 {
 }
 
 h1 {
-  font-size: 8.5rem;
+  font-family: 'Bungee', sans-serif;
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 1.1;
 }
 
 h2 {
@@ -73,10 +76,26 @@ p {
   font-size: 2rem;
 }
 
+.container {
+  max-width: 98%;
+  margin-left: auto;
+}
+
 .top-text {
   letter-spacing: 2px;
 }
 
 .nav-icon {
   width: 23px;
+}
+
+.hero {
+  background: linear-gradient(
+    107.32deg,
+    rgba(255, 0, 113, 0.4) 15.44%,
+    rgba(128, 0, 128, 0.3) 79.64%
+  );
+
+  border-top-left-radius: 50px;
+  height: 95vh;
 }

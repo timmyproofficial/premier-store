@@ -1,9 +1,9 @@
-import NavbarTop from './components/NavbarTop';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div>
-      <NavbarTop />
+      <Hero />
     </div>
   );
 }
