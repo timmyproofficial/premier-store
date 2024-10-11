@@ -1,20 +1,25 @@
 import { Link } from 'react-router-dom';
 
-const HeadingBorderSm = ({
+const HeadingBorderLink = ({
   mainText,
   link,
   bold,
+  classes,
 }: {
   mainText: string;
-  link?: string;
+  link: string;
   bold?: boolean;
+  classes?: string;
 }) => {
   return (
     <>
-      <Link to={link!} className="inline-flex flex-col items-start">
+      <Link
+        to={link!}
+        className={`inline-flex flex-col items-start ${classes}`}
+      >
         <p
           className={`${
-            bold ? `font-[500] text-[4rem]` : `font-[400] text-[3.6rem]`
+            bold ? `font-[500] text-[4rem]` : `font-[400] text-[2.4rem]`
           } text-link-color`}
         >
           {mainText}
@@ -29,4 +34,4 @@ const HeadingBorderSm = ({
   );
 };
 
-export default HeadingBorderSm;
+export default HeadingBorderLink;
