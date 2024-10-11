@@ -11,7 +11,7 @@ const Hero = () => {
     <>
       <NavbarTop />
       <div className="relative hero container">
-        <nav className="flex justify-end px-10 py-7">
+        <nav className="flex justify-end px-10 py-7 mr-10">
           <ul className="text-[1.8rem] text-link-color font-[700] flex gap-8">
             <li>
               <Link to={'/'}>Home</Link>
@@ -31,19 +31,19 @@ const Hero = () => {
           </ul>
         </nav>
 
-        <div className="grid grid-cols-[55%_45%] items-start">
+        <div className="grid md:grid-cols-[55%_45%]">
           <div className="flex flex-col gap-16 pl-11 mt-[70px]">
             <h1 className="uppercase">The most trendy products for you</h1>
             <Link to={'/'}>
               <Button text="Shop Now" />
             </Link>
           </div>
-          <div className="-z-20">
+          <div className="-z-20 hidden md:block">
             <img className="w-full" src={heroImg} alt="Hero Photo" />
           </div>
         </div>
 
-        <div className="flex gap-16 absolute top-[88vh] left-10">
+        <div className="hidden md:flex gap-16 absolute top-[88vh] left-10">
           <img className="w-[15px]" src={facebook} alt="Facebook Icon" />
           <img className="w-[20px]" src={whatsapp} alt="WhatsApp Icon" />
           <img className="w-[20px]" src={instagram} alt="Instagram Icon" />
