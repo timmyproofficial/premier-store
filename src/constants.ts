@@ -5,6 +5,9 @@ import arrival4 from './assets/arrival4.png';
 import newsImg1 from './assets/newsfeed1.png';
 import newsImg2 from './assets/newsfeed2.png';
 import newsImg3 from './assets/newsfeed3.png';
+import facebookIcon from './assets/facebook.svg';
+import instagramIcon from './assets/instagram.svg';
+import whatsAppIcon from './assets/whatsapp.svg';
 
 export const productsFeature = [
   {
@@ -152,5 +155,29 @@ export const newsFeed = [
   {
     id: 3,
     img: newsImg3,
+  },
+];
+
+export const socialPlatforms = [
+  {
+    id: 1,
+    title: 'facebook',
+    icon: facebookIcon,
+    link: '/',
+    width: '15px',
+  },
+  {
+    id: 2,
+    title: 'WhatsApp',
+    icon: whatsAppIcon,
+    link: '/',
+    width: '20px',
+  },
+  {
+    id: 3,
+    title: 'Instagram',
+    icon: instagramIcon,
+    link: '/',
+    width: '20px',
   },
 ];

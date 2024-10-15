@@ -4,6 +4,7 @@ import heroImg from '../assets/hero-premier.png';
 import facebook from '../assets/facebook.svg';
 import whatsapp from '../assets/whatsapp.svg';
 import instagram from '../assets/instagram.svg';
+import SocialPlatforms from './SocialPlatforms';
 
 const Hero = () => {
   return (
@@ -42,9 +43,7 @@ const Hero = () => {
         </div>
 
         <div className="hidden lg:flex gap-16 absolute top-[88vh] left-10">
-          <img className="w-[15px]" src={facebook} alt="Facebook Icon" />
-          <img className="w-[20px]" src={whatsapp} alt="WhatsApp Icon" />
-          <img className="w-[20px]" src={instagram} alt="Instagram Icon" />
+          <SocialPlatforms />
         </div>
       </div>
     </>
