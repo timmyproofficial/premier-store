@@ -1,6 +1,7 @@
 import AboutBlock from '../components/AboutBlock';
 import DiscountBlock from '../components/DiscountBlock';
 import FeaturedProuductsBlock from '../components/FeaturedProuductsBlock';
+import FooterBlock from '../components/FooterBlock';
 import Hero from '../components/Hero';
 import NavbarTop from '../components/NavbarTop';
 import NewArrivalsBlock from '../components/NewArrivalsBlock';
@@ -22,6 +23,7 @@ const HomePage = () => {
       <TestimonialsBlock />
       <DiscountBlock />
       <NewsFeedBlock />
+      <FooterBlock />
     </>
   );
 };

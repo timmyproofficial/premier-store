@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom';
 import Button from './Button';
 import heroImg from '../assets/hero-premier.png';
-import facebook from '../assets/facebook.svg';
-import whatsapp from '../assets/whatsapp.svg';
-import instagram from '../assets/instagram.svg';
 import SocialPlatforms from './SocialPlatforms';
 
 const Hero = () => {

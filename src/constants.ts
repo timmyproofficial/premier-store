@@ -158,6 +158,65 @@ export const newsFeed = [
   },
 ];
 
+export const pages = [
+  {
+    id: 1,
+    text: 'Home',
+    link: '/',
+  },
+  {
+    id: 2,
+    text: 'Shop',
+    link: '/',
+  },
+  {
+    id: 3,
+    text: 'Jewerly',
+    link: '/',
+  },
+  {
+    id: 4,
+    text: 'Shirts',
+    link: '/',
+  },
+  {
+    id: 5,
+    text: 'Contact Us',
+    link: '/',
+  },
+];
+
+export const infoPages = [
+  {
+    id: 1,
+    text: 'Shipping Policy',
+    link: '/',
+  },
+  {
+    id: 2,
+    text: 'Return & Refund',
+    link: '/',
+  },
+  {
+    id: 3,
+    text: 'Support',
+    link: '/',
+  },
+  {
+    id: 4,
+    text: 'FAQs',
+    link: '/',
+  },
+];
+
+export const contactPage = [
+  {
+    id: 1,
+    text: '2, Victory Avenue, off Oke-Odo street, LIKEMIND Estate Road, Erunwen, Ikorodu, Lagos State, Nigeria',
+    link: '/',
+  },
+];
+
 export const socialPlatforms = [
   {
     id: 1,
