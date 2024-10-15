@@ -2,6 +2,9 @@ import arrival1 from './assets/arrival1.png';
 import arrival2 from './assets/arrival2.png';
 import arrival3 from './assets/arrival3.png';
 import arrival4 from './assets/arrival4.png';
+import newsImg1 from './assets/newsfeed1.png';
+import newsImg2 from './assets/newsfeed2.png';
+import newsImg3 from './assets/newsfeed3.png';
 
 export const productsFeature = [
   {
@@ -134,5 +137,20 @@ export const testimonies = [
     username: 'Steve Orenuga',
     msg: 'Lorem ipsum, this is a dummy test. The primary objective of this project is to create a user-friendly website where clients can seamlessly book appointments and make secure payments.',
     rating: 5,
+  },
+];
+
+export const newsFeed = [
+  {
+    id: 1,
+    img: newsImg1,
+  },
+  {
+    id: 2,
+    img: newsImg2,
+  },
+  {
+    id: 3,
+    img: newsImg3,
   },
 ];

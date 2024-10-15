@@ -4,6 +4,7 @@ import FeaturedProuductsBlock from '../components/FeaturedProuductsBlock';
 import Hero from '../components/Hero';
 import NavbarTop from '../components/NavbarTop';
 import NewArrivalsBlock from '../components/NewArrivalsBlock';
+import NewsFeedBlock from '../components/NewsFeedBlock';
 import OffersBlock from '../components/offersBlock';
 import TestimonialsBlock from '../components/TestimonialsBlock';
 
@@ -20,6 +21,7 @@ const HomePage = () => {
       <NewArrivalsBlock />
       <TestimonialsBlock />
       <DiscountBlock />
+      <NewsFeedBlock />
     </>
   );
 };
