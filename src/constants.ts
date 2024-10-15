@@ -34,6 +34,65 @@ export const productsFeature = [
   },
 ];
 
+export const newArrivals = [
+  {
+    id: 1,
+    title: 'Golden Ring',
+    img: arrival1,
+    price: 20,
+    discount: 10,
+  },
+  {
+    id: 2,
+    title: 'Ice wriste',
+    img: arrival2,
+    price: 30,
+    discount: 15,
+  },
+  {
+    id: 3,
+    title: 'Ice Necklace',
+    img: arrival3,
+    price: 50,
+    discount: 15,
+  },
+  {
+    id: 4,
+    title: 'Silver watch',
+    img: arrival4,
+    price: 45,
+    discount: 13,
+  },
+  {
+    id: 5,
+    title: 'Golden Ring',
+    img: arrival1,
+    price: 20,
+    discount: 10,
+  },
+  {
+    id: 6,
+    title: 'Ice wriste',
+    img: arrival2,
+    price: 30,
+    discount: 15,
+  },
+  {
+    id: 7,
+    title: 'Ice Necklace',
+    img: arrival3,
+    price: 50,
+    discount: 15,
+  },
+  {
+    id: 8,
+    title: 'Silver watch',
+    img: arrival4,
+    price: 45,
+    discount: 13,
+  },
+];
+
 export const offers = [
   {
     id: 1,

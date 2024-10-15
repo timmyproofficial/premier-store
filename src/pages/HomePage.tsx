@@ -2,6 +2,7 @@ import AboutBlock from '../components/AboutBlock';
 import FeaturedProuductsBlock from '../components/FeaturedProuductsBlock';
 import Hero from '../components/Hero';
 import NavbarTop from '../components/NavbarTop';
+import NewArrivalsBlock from '../components/NewArrivalsBlock';
 import OffersBlock from '../components/offersBlock';
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
       <FeaturedProuductsBlock />
       <AboutBlock />
       <OffersBlock />
+      <NewArrivalsBlock />
     </>
   );
 };
