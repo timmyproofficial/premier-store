@@ -1,1 +1,4 @@
-declare module 'components/offersBlock';
+declare module 'components/offersBlock' {
+  const OffersBlock: any;
+  export default OffersBlock;
+}
