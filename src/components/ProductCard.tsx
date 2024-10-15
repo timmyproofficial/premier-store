@@ -17,7 +17,8 @@ const ProductCard = ({ title, img, price, discount }: Props) => {
           {discount}%
         </span>
       </div>
-      <div className="flex justify-between items-center relative pr-16 pl-10  top-[-40px]">
+      {/* <div className="flex justify-between items-center relative pr-16 pl-10  top-[-40px]"> */}
+      <div className="flex justify-between items-center pr-16 pl-10 pb-6">
         <div className="text-white-color flex flex-col gap-10">
           <div>
             <p>{title}</p>

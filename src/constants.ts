@@ -33,3 +33,26 @@ export const productsFeature = [
     discount: 13,
   },
 ];
+
+export const offers = [
+  {
+    id: 1,
+    heading: 'Nationwide Delivery',
+    text: 'We deliver to anywhere',
+  },
+  {
+    id: 2,
+    heading: 'Special Discounts',
+    text: 'Guaranteed saving',
+  },
+  {
+    id: 3,
+    heading: 'Customer Service',
+    text: 'Give us feedback',
+  },
+  {
+    id: 4,
+    heading: 'High Quality',
+    text: 'Guaranteed saving',
+  },
+];
