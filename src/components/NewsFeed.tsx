@@ -1,4 +1,3 @@
-import React from 'react';
 import { newsFeed } from '../constants';
 
 const NewsFeed = () => {

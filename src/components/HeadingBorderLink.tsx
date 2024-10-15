@@ -19,7 +19,9 @@ const HeadingBorderLink = ({
       >
         <p
           className={`${
-            bold ? `font-[500] text-[4rem]` : `font-[400] text-[2.4rem]`
+            bold
+              ? `font-[500] text-[4rem]`
+              : `font-[400] text-[1.6rem] md:text-[2.4rem]`
           } text-link-color`}
         >
           {mainText}
