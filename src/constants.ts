@@ -115,3 +115,24 @@ export const offers = [
     text: 'Guaranteed saving',
   },
 ];
+
+export const testimonies = [
+  {
+    id: 1,
+    username: 'Mike Jobs',
+    msg: 'Lorem ipsum, this is a dummy test. The primary objective of this project is to create a user-friendly website where clients can seamlessly book appointments and make secure payments.',
+    rating: 5,
+  },
+  {
+    id: 2,
+    username: 'Jobber Jorvis',
+    msg: 'Lorem ipsum, this is a dummy test. The primary objective of this project is to create a user-friendly website where clients can seamlessly book appointments and make secure payments.',
+    rating: 5,
+  },
+  {
+    id: 3,
+    username: 'Steve Orenuga',
+    msg: 'Lorem ipsum, this is a dummy test. The primary objective of this project is to create a user-friendly website where clients can seamlessly book appointments and make secure payments.',
+    rating: 5,
+  },
+];

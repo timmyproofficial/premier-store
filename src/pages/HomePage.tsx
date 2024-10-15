@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import NavbarTop from '../components/NavbarTop';
 import NewArrivalsBlock from '../components/NewArrivalsBlock';
 import OffersBlock from '../components/offersBlock';
+import TestimonialsBlock from '../components/TestimonialsBlock';
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <AboutBlock />
       <OffersBlock />
       <NewArrivalsBlock />
+      <TestimonialsBlock />
     </>
   );
 };

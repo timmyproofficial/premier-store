@@ -9,7 +9,7 @@ interface Props {
 
 const TestimonialCard = ({ username, msg, rating }: Props) => {
   return (
-    <div className="bg-gray-accent rounded-[30px] border border-secondary-color p-12 m-28 max-w-[300px] flex flex-col gap-12">
+    <div className="bg-gray-accent rounded-[30px] border border-secondary-color p-12 flex flex-col gap-12">
       <div className="flex justify-between items-center">
         <span className="bg-white-color w-[50px] h-[50px] rounded-full flex justify-center items-center">
           <img className="w-[25px] h-[25px]" src={userIcon} alt="User Icon" />
