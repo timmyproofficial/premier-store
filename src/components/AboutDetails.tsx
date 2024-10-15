@@ -13,7 +13,7 @@ const AboutDetails = () => {
         Lorem ipsum, this is a dummy test. The primary objective of this project
         is to create a user-friendly Lorem ipsum dolor sit amet, consectetur
         adipisicing elit. Nulla, molestiae reiciendis eligendi officiis quidem
-        laborum eaque placeat rerum omnis website where clients can seamlessly
+        laborum eaque placeat rerum uouou website where clients can seamlessly
         book appointments and make secure payments.{' '}
       </p>
       <HeadingBorderLink
