@@ -3,7 +3,7 @@ import HeadingDiscount from './HeadingDiscount';
 
 const DiscountBlock = () => {
   return (
-    <section className="bg-block-color py-5 md:py-10">
+    <section className="bg-block-color py-32">
       <div className="grid md:grid-cols-[25%_1fr] md:gap-52 items-center p-16 md:px-20 discount-block">
         <img
           src={discountImg}

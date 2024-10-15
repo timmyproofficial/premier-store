@@ -9,7 +9,7 @@ const BlockWhite = ({
 }) => {
   return (
     <section
-      className={`bg-block-color w-[98%] px-6 py-16 lg:px-24 mx-auto relative ${classes}`}
+      className={`bg-block-color w-[98%] px-6 pt-16 pb-32 lg:px-24 mx-auto relative ${classes}`}
     >
       {children}
     </section>

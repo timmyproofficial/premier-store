@@ -5,8 +5,10 @@ import NewArrivals from './NewArrivals';
 const NewArrivalsBlock = () => {
   return (
     <BlockWhite>
-      <HeadingPlain mainText="New Arrivals" />
-      <NewArrivals />
+      <div className="pt-32">
+        <HeadingPlain mainText="New Arrivals" />
+        <NewArrivals />
+      </div>
     </BlockWhite>
   );
 };
