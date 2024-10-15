@@ -91,14 +91,22 @@ p {
 }
 
 .hero {
+  border-top-left-radius: 50px;
+  /* height: 95vh; */
+}
+
+.hero,
+.discount-block {
   background: linear-gradient(
     107.32deg,
     rgba(255, 0, 113, 0.4) 15.44%,
     rgba(128, 0, 128, 0.3) 79.64%
   );
+}
 
-  border-top-left-radius: 50px;
-  /* height: 95vh; */
+.discount-img {
+  transform: scale(1.3, 1.5);
+  margin-left: 3rem;
 }
 
 @media screen and (min-width: 1024px) {
