@@ -5,7 +5,7 @@ import BlockWhite from './BlockWhite';
 const AboutBlock = () => {
   return (
     <BlockWhite classes="lg:pb-52">
-      <div className="grid gap-32 md:grid-cols-2">
+      <div className="grid gap-32 lg:grid-cols-2">
         <AboutImgCard />
         <AboutDetails />
       </div>
