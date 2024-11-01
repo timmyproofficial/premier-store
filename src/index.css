@@ -130,3 +130,9 @@ p {
     height: 95vh;
   }
 }
+
+@layer components {
+  .login-input {
+    @apply px-8 py-5 text-[1.6rem] bg-white-accent outline-0 w-full;
+  }
+}
