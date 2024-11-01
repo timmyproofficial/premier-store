@@ -1,10 +1,23 @@
+import NavbarTop from './components/NavbarTop';
+import { Outlet } from 'react-router';
 import { HomePage } from './pages';
+import FooterBlock from './components/FooterBlock';
 
 function App() {
   return (
-    <div>
-      <HomePage />
-    </div>
+    <>
+      <header>
+        <nav>
+          <NavbarTop />
+        </nav>
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer>
+        <FooterBlock />
+      </footer>
+    </>
   );
 }
 

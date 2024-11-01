@@ -12,10 +12,7 @@ import TestimonialsBlock from '../components/TestimonialsBlock';
 const HomePage = () => {
   return (
     <>
-      <header>
-        <NavbarTop />
-        <Hero />
-      </header>
+      <Hero />
       <FeaturedProuductsBlock />
       <AboutBlock />
       <OffersBlock />
@@ -23,7 +20,6 @@ const HomePage = () => {
       <TestimonialsBlock />
       <DiscountBlock />
       <NewsFeedBlock />
-      <FooterBlock />
     </>
   );
 };

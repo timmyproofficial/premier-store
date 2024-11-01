@@ -7,17 +7,19 @@ import SearchBar from './SearchBar';
 
 const NavbarTop = () => {
   return (
-    <nav className="flex flex-col gap-8 md:flex-row md:justify-between md:gap-48 px-8 pt-10 pb-8">
-      <img
-        className="w-[180px] self-center"
-        src={premierStore}
-        alt="App Logo"
-      />
+    <nav className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between md:gap-48 px-8 pt-10 pb-8">
+      <Link to="/">
+        <img
+          className="w-[180px] self-center"
+          src={premierStore}
+          alt="App Logo"
+        />
+      </Link>
 
       <SearchBar />
 
       <div className="lg:flex items-center gap-14 hidden">
-        <Link to={'/'}>
+        <Link to={'/login'}>
           <img className="nav-icon" src={userIcon} alt="User Icon" />
         </Link>
         <Link to={'/'}>

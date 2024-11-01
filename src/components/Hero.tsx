@@ -2,30 +2,16 @@ import { Link } from 'react-router-dom';
 import Button from './Button';
 import heroImg from '../assets/hero-premier.png';
 import SocialPlatforms from './SocialPlatforms';
+import NavHero from './NavHero';
 
 const Hero = () => {
   return (
     <>
       <div className="relative pb-12 lg:h-[95vh] hero container">
-        <nav className="flex justify-end px-10 py-7 mr-10">
-          <ul className="text-[1.8rem] text-link-color font-[700] flex gap-8">
-            <li>
-              <Link to={'/'}>Home</Link>
-            </li>
-            <li>
-              <Link to={'/'}>Shop</Link>
-            </li>
-            <li>
-              <Link to={'/'}>Jewerly</Link>
-            </li>
-            <li>
-              <Link to={'/'}>Shirts</Link>
-            </li>
-            <li>
-              <Link to={'/'}>Contact Us</Link>
-            </li>
-          </ul>
-        </nav>
+        <NavHero
+          textColor="link-color"
+          classes="flex justify-end px-10 py-7 mr-10"
+        />
 
         <div className="grid md:grid-cols-[55%_45%]">
           <div className="flex flex-col gap-16 pl-11 mt-[70px]">
