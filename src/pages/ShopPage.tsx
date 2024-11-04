@@ -1,6 +1,7 @@
 import NavHero from '../components/NavHero';
 import NewArrivals from '../components/NewArrivals';
 import starIcon from '../assets/star-filled.svg';
+import ShopContainer from '../components/ShopContainer';
 
 const ShopPage = () => {
   return (
@@ -63,10 +64,9 @@ const ShopPage = () => {
           </div>
         </div>
       </aside>
-      <section className="bg-block-color py-12 px-16 rounded-tl-[50px]">
-        <NavHero textColor="black" classes="flex justify-end mr-8 mb-20" />
+      <ShopContainer>
         <NewArrivals />
-      </section>
+      </ShopContainer>
     </section>
   );
 };

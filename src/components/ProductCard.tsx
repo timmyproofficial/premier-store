@@ -1,14 +1,16 @@
+import { Link } from 'react-router-dom';
 import starIcon from '../assets/star-filled.svg';
 import cartIcon from '../assets/cart-white.svg';
 
 interface Props {
+  id: number;
   title: string;
   img: string;
   price: number;
   discount: number;
 }
 
-const ProductCard = ({ title, img, price, discount }: Props) => {
+const ProductCard = ({ id, title, img, price, discount }: Props) => {
   return (
     <div className="bg-dark-color rounded-[30px] relative overflow-hidden shadow-product-shadow flex flex-col">
       <div className="relative">
@@ -21,7 +23,9 @@ const ProductCard = ({ title, img, price, discount }: Props) => {
       <div className="flex justify-between items-center pr-16 pl-10 pb-6">
         <div className="text-white-color flex flex-col gap-10">
           <div>
-            <p>{title}</p>
+            <Link to={`/products/${id}`}>
+              <p>{title}</p>
+            </Link>
             <span className="flex gap-3">
               <img className="w-5" src={starIcon} alt="Star Icon" />
               <img className="w-5" src={starIcon} alt="Star Icon" />
