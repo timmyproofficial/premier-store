@@ -1,6 +1,5 @@
 import NavbarTop from './components/NavbarTop';
 import { Outlet } from 'react-router';
-import { HomePage } from './pages';
 import FooterBlock from './components/FooterBlock';
 
 function App() {
