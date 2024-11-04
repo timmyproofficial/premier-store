@@ -3,7 +3,7 @@ import { newArrivals } from '../constants';
 
 const NewArrivals = () => {
   return (
-    <div className="grid gap-10 md:gap-y-20 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid gap-10 md:gap-y-20 grid-cols-2 lg:grid-cols-4">
       {newArrivals.map((prod) => (
         <ProductCard
           key={prod.id}

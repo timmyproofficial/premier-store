@@ -61,7 +61,7 @@ h3 {
 
 h1 {
   font-family: 'Bungee', sans-serif;
-  font-size: 7rem;
+  font-size: 5.5rem;
   font-weight: 900;
   line-height: 1.1;
 }
@@ -83,6 +83,10 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 7rem;
+  }
+
   h3 {
     font-size: 3.6rem;
   }

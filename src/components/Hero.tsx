@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="relative pb-12 lg:h-[95vh] hero container">
         <NavHero
           textColor="link-color"
-          classes="flex justify-end px-10 py-7 mr-10"
+          classes="hidden md:flex justify-end px-10 py-7 mr-10"
         />
 
         <div className="grid md:grid-cols-[55%_45%]">

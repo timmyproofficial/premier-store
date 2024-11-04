@@ -1,3 +1,4 @@
+import { Home, Store, Gem, Shirt, Contact } from 'lucide-react';
 import arrival1 from './assets/arrival1.png';
 import arrival2 from './assets/arrival2.png';
 import arrival3 from './assets/arrival3.png';
@@ -163,26 +164,31 @@ export const pages = [
     id: 1,
     text: 'Home',
     link: '/',
+    icon: Home,
   },
   {
     id: 2,
     text: 'Shop',
     link: '/',
+    icon: Store,
   },
   {
     id: 3,
     text: 'Jewerly',
     link: '/',
+    icon: Gem,
   },
   {
     id: 4,
     text: 'Shirts',
     link: '/',
+    icon: Shirt,
   },
   {
     id: 5,
     text: 'Contact Us',
     link: '/',
+    icon: Contact,
   },
 ];
 

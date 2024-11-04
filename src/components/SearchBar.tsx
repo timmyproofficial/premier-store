@@ -2,7 +2,7 @@ import inputSearch from '../assets/search.svg';
 
 const SearchBar = () => {
   return (
-    <div className="flex rounded-xl overflow-hidden grow">
+    <div className="hidden md:flex rounded-xl overflow-hidden grow">
       <input
         className="grow outline-0 px-3 py-4 text-dark-color text-[1.6rem]"
         placeholder="Search Product"
