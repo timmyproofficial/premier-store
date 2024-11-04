@@ -1,3 +1,4 @@
+import ProductDetails from '../components/shop/ProductDetails';
 import ProductImages from '../components/shop/ProductImages';
 import ShopContainer from '../components/ShopContainer';
 
@@ -7,7 +8,7 @@ const ProductPage = () => {
       <article className="grid grid-cols-[75%_25%]">
         <section className="grid grid-cols-[40%_55%]">
           <ProductImages />
-          <div className="bg-gray-400 h-10"></div>
+          <ProductDetails />
         </section>
         <aside className="bg-green-200 justify-self-end">
           <h4 className="text-[1.8rem] text-gray-color mb-6">

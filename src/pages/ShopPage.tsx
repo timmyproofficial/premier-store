@@ -1,6 +1,6 @@
-import NavHero from '../components/NavHero';
 import NewArrivals from '../components/NewArrivals';
-import starIcon from '../assets/star-filled.svg';
+import Rating from '../components/Rating';
+
 import ShopContainer from '../components/ShopContainer';
 
 const ShopPage = () => {
@@ -54,13 +54,7 @@ const ShopPage = () => {
           <div>
             <h4 className="text-primary-color text-[2rem] mb-6">Ratings</h4>
 
-            <span className="flex gap-5 ml-5">
-              <img className="w-10" src={starIcon} alt="Star Icon" />
-              <img className="w-10" src={starIcon} alt="Star Icon" />
-              <img className="w-10" src={starIcon} alt="Star Icon" />
-              <img className="w-10" src={starIcon} alt="Star Icon" />
-              <img className="w-10" src={starIcon} alt="Star Icon" />
-            </span>
+            <Rating size={10} classes="ml-5" />
           </div>
         </div>
       </aside>
