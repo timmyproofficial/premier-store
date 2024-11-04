@@ -1,3 +1,4 @@
+import BtnCart from '../BtnCart';
 import Rating from '../Rating';
 import CartCounter from './CartCounter';
 
@@ -44,6 +45,7 @@ const ProductDetails = () => {
       </div>
 
       <CartCounter />
+      <BtnCart />
     </article>
   );
 };
