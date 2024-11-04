@@ -4,7 +4,7 @@ import CartCounter from './CartCounter';
 
 const ProductDetails = () => {
   return (
-    <article>
+    <article className="flex flex-col gap-10">
       <header>
         <h3 className="mb-3">Product Title</h3>
         <Rating size={8} />
@@ -19,7 +19,7 @@ const ProductDetails = () => {
 
       <div className="flex items-center gap-8">
         <h4 className="font-bold">$ 10.00</h4>
-        <strike className="text-[14px] text-gray-color">$ 10.00</strike>
+        <small className="text-[14px] text-gray-color">$ 10.00</small>
         <div className="bg-primary-color text-white-color py-2 px-5 rounded-[100px]">
           - 20%
         </div>
@@ -44,8 +44,10 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <CartCounter />
-      <BtnCart />
+      <div className="flex gap-28">
+        <CartCounter />
+        <BtnCart />
+      </div>
     </article>
   );
 };

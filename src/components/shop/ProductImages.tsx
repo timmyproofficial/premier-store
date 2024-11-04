@@ -22,7 +22,7 @@ const ProductImages = () => {
   };
   return (
     <div className="flex flex-col gap-6">
-      <div className="w-[350px] h-[350px]">
+      <div className="">
         <img src={mainImg.src} alt={mainImg.alt} />
       </div>
       <div className="flex gap-6 self-center">
