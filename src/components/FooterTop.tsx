@@ -20,7 +20,7 @@ const FooterTop = () => {
         <FooterNav heading="Info" pages={infoPages} />
       </div>
 
-      <div className="col-span-4 md:col-span-1">
+      <div className="mt-14 md:mt-0 col-span-4 md:col-span-1">
         <FooterNav
           heading="Contact"
           pages={contactPage}
