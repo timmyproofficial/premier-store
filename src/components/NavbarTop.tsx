@@ -14,7 +14,7 @@ const NavbarTop = () => {
   const handleSetShowMenu = () => setShowMenu(false);
 
   return (
-    <nav className="flex items-center justify-between px-8 pt-10 pb-8">
+    <nav className="flex items-center justify-between gap-40 px-8 pt-10 pb-8">
       <Link to="/">
         <img
           className="w-[180px] self-center"
