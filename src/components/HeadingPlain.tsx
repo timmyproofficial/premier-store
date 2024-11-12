@@ -5,7 +5,7 @@ interface Props {
 
 const HeadingPlain = ({ mainText, topText }: Props) => {
   return (
-    <div className="">
+    <div className="mb-14 lg:mb-[5.5rem]">
       {topText && (
         <p className="text-gray-color text-[1.6rem] md:text-[2.25rem] mb-[-5px] md:mb-[-10px] top-text">
           Newsfeed
