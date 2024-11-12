@@ -79,7 +79,8 @@ h4 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  line-height: 1.1;
 }
 
 @media screen and (min-width: 768px) {
@@ -93,6 +94,10 @@ p {
 
   h3 {
     font-size: 3.6rem;
+  }
+
+  p {
+    font-size: 2.4rem;
   }
 }
 

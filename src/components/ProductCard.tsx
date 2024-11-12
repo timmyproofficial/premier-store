@@ -15,12 +15,13 @@ const ProductCard = ({ id, title, img, price, discount }: Props) => {
     <div className="bg-dark-color rounded-[30px] relative overflow-hidden shadow-product-shadow flex flex-col">
       <div className="relative">
         <img src={img} alt={title} />
-        <span className="bg-white-color font-extrabold flex justify-center items-center rounded-full absolute top-3/4 right-20 w-16 h-16">
+        <span className="bg-white-color font-extrabold flex justify-center items-center rounded-full absolute top-[70%] right-[2rem] md:top-3/4 md:right-20 w-16 h-16">
           {discount}%
         </span>
       </div>
       {/* <div className="flex justify-between items-center relative pr-16 pl-10  top-[-40px]"> */}
-      <div className="flex justify-between items-center pr-16 pl-10 pb-6">
+      {/* <div className="flex justify-between items-center pr-16 pl-10 pb-6"> */}
+      <div className="grid grid-cols-[80%_20%] items-center px-8 py-4">
         <div className="text-white-color flex flex-col gap-10">
           <div>
             <Link to={`/products/${id}`}>
