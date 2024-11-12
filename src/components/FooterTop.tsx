@@ -5,7 +5,7 @@ import FooterNav from './FooterNav';
 
 const FooterTop = () => {
   return (
-    <div className="text-white-color grid grid-rows[auto_1fr] lg:grid-rows[1fr] grid-cols-[1fr_1fr_1fr] md:grid-cols-[auto_1fr_1fr_1fr]">
+    <div className="text-white-color grid grid-rows-[auto_1fr] lg:grid-rows-[1fr] grid-cols-[1fr_1fr_1fr] md:grid-cols-[auto_1fr_1fr_1fr]">
       <div className="flex flex-col justify-between">
         <img className="w-[150px]" src={premierStoreImg} alt="Premier Store" />
         <h4>It's all about fashion & lifestyle</h4>
@@ -16,7 +16,7 @@ const FooterTop = () => {
         <FooterNav heading="Pages" pages={pages} />
       </div>
 
-      <div className="col-span-2 justify-self-center lg:col-span-1 lg:justify-self-center">
+      <div className="col-span-2 pl-12 lg:pl-0 justify-self-end lg:col-span-1 lg:justify-self-center">
         <FooterNav heading="Info" pages={infoPages} />
       </div>
 
