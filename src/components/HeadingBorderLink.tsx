@@ -28,7 +28,7 @@ const HeadingBorderLink = ({
         </p>
         <div
           className={`${
-            bold ? `mt-[-8px]` : `mt-[-5px]`
+            bold ? `mt-[-5px]` : `mt-[-2px]`
           } bg-secondary-color w-[82%] border border-link-color self-end`}
         ></div>
       </Link>
