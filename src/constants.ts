@@ -169,7 +169,7 @@ export const pages = [
   {
     id: 2,
     text: 'Shop',
-    link: '/',
+    link: '/shop',
     icon: Store,
   },
   {
@@ -186,7 +186,7 @@ export const pages = [
   },
   {
     id: 5,
-    text: 'Contact Us',
+    text: 'Contact',
     link: '/',
     icon: Contact,
   },
