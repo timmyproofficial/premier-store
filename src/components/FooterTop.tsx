@@ -16,7 +16,7 @@ const FooterTop = () => {
         <FooterNav heading="Pages" pages={pages} />
       </div>
 
-      <div className="col-span-2 pl-12 lg:pl-0 justify-self-end lg:col-span-1 lg:justify-self-center">
+      <div className="col-span-2 pl-12 md:pl-0 justify-self-end lg:col-span-1 lg:justify-self-center">
         <FooterNav heading="Info" pages={infoPages} />
       </div>
 

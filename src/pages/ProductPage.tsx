@@ -5,7 +5,7 @@ import ShopContainer from '../components/ShopContainer';
 
 const ProductPage = () => {
   return (
-    <ShopContainer classes="w-[95%] ml-auto">
+    <ShopContainer classes="lg:w-[95%] lg:ml-auto">
       <article className="grid grid-cols-[1fr] md:grid-cols-[75%_25%]">
         <section className="grid grid-cols-[1fr] lg:grid-cols-[50%_55%]">
           <ProductImages />

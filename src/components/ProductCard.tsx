@@ -22,17 +22,19 @@ const ProductCard = ({ id, title, img, price, discount }: Props) => {
       {/* <div className="flex justify-between items-center relative pr-16 pl-10  top-[-40px]"> */}
       {/* <div className="flex justify-between items-center pr-16 pl-10 pb-6"> */}
       <div className="grid grid-cols-[80%_20%] items-center px-8 py-4">
-        <div className="text-white-color flex flex-col gap-10">
+        <div className="text-white-color flex flex-col gap-5 md:gap-10">
           <div>
             <Link to={`/products/${id}`}>
-              <p>{title}</p>
+              <p className="text-[1.5rem] md:text-[1.8rem] lg:text-[2.4rem]">
+                {title}
+              </p>
             </Link>
             <span className="flex gap-3">
-              <img className="w-5" src={starIcon} alt="Star Icon" />
-              <img className="w-5" src={starIcon} alt="Star Icon" />
-              <img className="w-5" src={starIcon} alt="Star Icon" />
-              <img className="w-5" src={starIcon} alt="Star Icon" />
-              <img className="w-5" src={starIcon} alt="Star Icon" />
+              <img className="w-3 md:w-5" src={starIcon} alt="Star Icon" />
+              <img className="w-3 md:w-5" src={starIcon} alt="Star Icon" />
+              <img className="w-3 md:w-5" src={starIcon} alt="Star Icon" />
+              <img className="w-3 md:w-5" src={starIcon} alt="Star Icon" />
+              <img className="w-3 md:w-5" src={starIcon} alt="Star Icon" />
             </span>
           </div>
           <span className="inline-flex flex-col self-start">

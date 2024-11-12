@@ -3,7 +3,7 @@ import { socialPlatforms } from '../constants';
 
 const SocialPlatforms = () => {
   return (
-    <div className="flex gap-16 items-center">
+    <div className="flex gap-10 md:gap-16 items-center">
       {socialPlatforms.map((platform) => (
         <Link key={platform.id} to={platform.link}>
           <img

@@ -26,7 +26,7 @@ const NavbarTop = () => {
       <SearchBar />
 
       {!showMenu && (
-        <Menu className="md:hidden" onClick={() => setShowMenu(true)} />
+        <Menu className="lg:hidden" onClick={() => setShowMenu(true)} />
       )}
 
       <div className="lg:flex items-center gap-14 hidden">
