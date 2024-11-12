@@ -25,7 +25,9 @@ const NavbarTop = () => {
 
       <SearchBar />
 
-      {!showMenu && <Menu onClick={() => setShowMenu(true)} />}
+      {!showMenu && (
+        <Menu className="md:hidden" onClick={() => setShowMenu(true)} />
+      )}
 
       <div className="lg:flex items-center gap-14 hidden">
         <Link to={'/login'}>
