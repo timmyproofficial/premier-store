@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 const LoginForm = () => {
   return (
     <div className="w-[70%] mx-auto">
-      <p className="text-gray-color mb-8">Welcome Back,</p>
+      <p className="text-gray-color mb-12">Welcome Back,</p>
 
       <form action="" className="text-gray-color">
-        <div className="flex flex-col gap-12 mb-4">
+        <div className="flex flex-col gap-16 mb-4">
           <div>
             <input
               className="login-input"
@@ -26,7 +26,7 @@ const LoginForm = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between mb-12">
+        <div className="flex items-center justify-between mb-16">
           <div className="flex gap-5">
             <input type="radio" id="remember" name="remember" />
             <label className="text-[1.4rem]" htmlFor="remember">
@@ -45,7 +45,7 @@ const LoginForm = () => {
           </button>
         </div>
 
-        <div className="text-center text-[1.4rem]">
+        <div className="text-center text-[1.6rem]">
           Don't have an account?{' '}
           <Link to="/" className="text-primary-color">
             Register here
