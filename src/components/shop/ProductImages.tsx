@@ -21,7 +21,7 @@ const ProductImages = () => {
     setMainImg(img);
   };
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 mb-16 lg:mb-0">
       <div className="">
         <img src={mainImg.src} alt={mainImg.alt} />
       </div>

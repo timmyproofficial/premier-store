@@ -6,7 +6,7 @@ const SimilarProduct = () => {
     <>
       <h4 className="text-[1.8rem] text-gray-color mb-6">Similar Products</h4>
 
-      <div className="flex flex-col gap-20">
+      <div className="flex md:flex-col gap-20">
         <div className="w-[150px] h-[120px]">
           <img src={product1} alt="Product Image" />
         </div>

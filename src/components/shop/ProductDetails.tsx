@@ -4,7 +4,7 @@ import CartCounter from './CartCounter';
 
 const ProductDetails = () => {
   return (
-    <article className="flex flex-col gap-10">
+    <article className="flex flex-col gap-10 mb-24 lg:mb-0">
       <header>
         <h3 className="mb-3">Product Title</h3>
         <Rating size={8} />
