@@ -4,7 +4,7 @@ import FilterProdRatings from './FilterProdRatings';
 
 const ShopSidebar = () => {
   return (
-    <aside className="p-12">
+    <aside className="p-12 hidden lg:block">
       <p className="text-gray-color font-medium flex justify-end mb-10">
         Filters
       </p>

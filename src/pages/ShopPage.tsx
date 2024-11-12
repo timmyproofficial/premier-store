@@ -5,7 +5,7 @@ import ShopContainer from '../components/ShopContainer';
 
 const ShopPage = () => {
   return (
-    <section className="grid grid-cols-[300px_1fr]">
+    <section className="grid grid-cols[1fr] lg:grid-cols-[300px_1fr]">
       <ShopSidebar />
       <ShopContainer>
         <NewArrivals />

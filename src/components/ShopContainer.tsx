@@ -10,9 +10,12 @@ const ShopContainer = ({
 }) => {
   return (
     <section
-      className={`bg-block-color py-12 px-16 rounded-tl-[50px] ${classes}`}
+      className={`bg-block-color py-24 lg:py-12 px-8 lg:px-16 rounded-tl-[50px] ${classes}`}
     >
-      <NavHero textColor="black" classes="flex justify-end mr-8 mb-20" />
+      <NavHero
+        textColor="black"
+        classes="hidden lg:flex justify-end mr-8 mb-20"
+      />
       {children}
     </section>
   );
