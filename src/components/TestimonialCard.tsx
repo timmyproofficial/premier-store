@@ -20,8 +20,8 @@ const TestimonialCard = ({ username, msg, rating }: Props) => {
           <img className="w-8 h-8" src={starIcon} alt="Star Icon" />
         </div>
       </div>
-      <p className="text-2xl">{msg}</p>
-      <p className="text-2xl font-[600] text-black border-l-[3px] border-primary-color px-4 py-1">
+      <p>{msg}</p>
+      <p className="font-[600] text-black border-l-[3px] border-primary-color px-4 py-1">
         {username}
       </p>
     </div>

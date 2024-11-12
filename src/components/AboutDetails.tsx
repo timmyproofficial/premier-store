@@ -9,7 +9,7 @@ const AboutDetails = () => {
         classes="mb-14 self-end md:self-start lg:self-end"
       />
 
-      <p className="text-[1.8rem] mb-5">
+      <p className="mb-5">
         Lorem ipsum, this is a dummy test. The primary objective of this project
         is to create a user-friendly Lorem ipsum dolor sit amet, consectetur
         adipisicing elit. Nulla, molestiae reiciendis eligendi officiis quidem
